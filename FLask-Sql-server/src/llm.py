@@ -16,14 +16,7 @@ if not GOOGLE_API_KEY:
 
 llm = GoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=GOOGLE_API_KEY)
 
-url = URL.create(
-    drivername="postgresql+psycopg2",
-    username=os.getenv("DB_USER", "postgres"),
-    password=os.getenv("DB_PASS", "root123"),
-    host=os.getenv("DB_HOST", "localhost"),
-    port=os.getenv("DB_PORT", 5432),
-    database=os.getenv("DB_NAME", "IPL_DATA"),
-)
+url = os.getenv("DB_URL")
 
 engine = create_engine(url)
 db = SQLDatabase(engine, include_tables=["matches_data", "deliveries_data", "team_data"])

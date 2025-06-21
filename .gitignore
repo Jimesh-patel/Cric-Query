@@ -32,14 +32,12 @@ build/
 .vscode/
 
 
-data
+
 myenv/
 venv/
 __pycache__/
 *.pyc
 myenv
-*/model
-*/data
 
 .env
 
