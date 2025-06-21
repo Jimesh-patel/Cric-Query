@@ -1,0 +1,7 @@
+Flask
+SQLAlchemy
+psycopg2-binary
+langchain-google-genai
+langchain_community
+flask-cors
+python-dotenv

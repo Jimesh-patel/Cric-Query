@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+*.env
+*.db
+*.sqlite3
+
+note.txt
+myenv
+menv
+README.md

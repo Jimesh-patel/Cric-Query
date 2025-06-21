@@ -1,0 +1,9 @@
+data
+venv/
+__pycache__/
+*.pyc
+myenv
+*/model
+*/data
+
+note.txt

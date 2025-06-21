@@ -1,0 +1,12 @@
+__pycache__
+text-to-sql
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+*.env
+*.db
+*.sqlite3
+
+note.txt
